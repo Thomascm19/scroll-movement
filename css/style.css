@@ -31,6 +31,66 @@ GLOBAL
 	float:left;
 	padding:0px;
 }
+
+/*=============================================
+GALERIA
+=============================================*/
+
+#galeria{
+	position:relative;
+	margin:auto;
+	width:100%;
+	background:white;
+}
+
+#galeria ul{
+	padding:20px;
+}
+
+#galeria ul li{
+	padding:10px;
+	cursor:pointer;
+	transition:.6s;
+}
+
+#galeria ul li:hover{
+	transition:.6s;
+	opacity:.6;
+}
+
+#galeria ul li img{
+	width:100%;
+}
+
+
+
+
+
+#galeria1{
+	position:relative;
+	margin:auto;
+	width:100%;
+	background:white;
+}
+
+#galeria1 ul{
+	padding:20px;
+}
+
+#galeria1 ul li{
+	padding:10px;
+	cursor:pointer;
+	transition:.6s;
+}
+
+#galeria1 ul li:hover{
+	transition:.6s;
+	opacity:.6;
+}
+
+#galeria1 ul li img{
+	width:100%;
+}
 /*=============================================
 EFECTO DE SCROLL
 =============================================*/
